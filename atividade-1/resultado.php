@@ -11,12 +11,12 @@
   
 
     if($notafinal > 7){
-        echo "aprovado com a média:" . $notafinal;
+        echo "aprovado com a média: " . $notafinal;
     }
     elseif($notafinal >= 5 && $notafinal < 7){
-        echo "recuperação" . $notafinal;
+        echo "recuperação: "  . $notafinal;
     }else{
-        echo "reprovado" . $notafinal;
+        echo "reprovado: "  . $notafinal;
     }
 }
 ?>
